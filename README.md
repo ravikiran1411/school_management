@@ -19,6 +19,7 @@ This project allows users to:
 
 ---
 
+
 # Features
 
 - Add School API
@@ -44,8 +45,6 @@ school_management/
 │
 ├── routes/
 │   └── schoolRoutes.js
-│
-├── node_modules/
 │
 ├── .env
 ├── package.json
