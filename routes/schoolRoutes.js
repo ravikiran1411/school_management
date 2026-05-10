@@ -4,8 +4,8 @@ import { addSchoolController, listSchoolController } from "../controllers/addSch
 
 const schoolRouter = express.Router()
 
-schoolRouter.post('/add',addSchoolController)
+schoolRouter.post('/addSchool',addSchoolController)
 
-schoolRouter.get('/list',listSchoolController)
+schoolRouter.get('/listSchools',listSchoolController)
 
 export default schoolRouter;
