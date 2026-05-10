@@ -14,7 +14,7 @@ const addSchoolController = (req,res) => {
             return res.json({success:false,message:"longitude & latitude must be in Number format"})
         }
 
-        const query = "INSERT INTO SCHOOLS (name,address,latitude,longitude) VALUES (?,?,?,?)"
+        const query = "INSERT INTO schools (name,address,latitude,longitude) VALUES (?,?,?,?)"
 
         db.query(query,[name,address,latitude,longitude],(err,results)=>{
             if (err) {
